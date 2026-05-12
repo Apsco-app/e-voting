@@ -29,7 +29,7 @@ Built with scalability, security and modern UX design in mind.
  
 ### Clone the repository
 ```bash
-   git clone https://github.com/jeremie-creates/evoting-system.git
+   git clone https://github.com/Apsco-app/e-voting.git
 ``` 
 ### Install dependencies
 ```bash
