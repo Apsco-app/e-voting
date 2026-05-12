@@ -29,7 +29,7 @@ Built with scalability, security and modern UX design in mind.
  
 ### Clone the repository
 ```bash
-   git clone https://github.com/jeremie-creates/evoting-system.git
+   git clone https://github.com/Apsco-app/e-voting.git
 ``` 
 ### Install dependencies
 ```bash
@@ -42,6 +42,10 @@ Built with scalability, security and modern UX design in mind.
     ADMIN_PASS=
 ```
 ### Run the backend
+``` bash
+    npm run seed 
+```
+
 ``` bash
     npm start
 ```
@@ -79,13 +83,13 @@ For major changes, please open an issue first to discuss what you would like to 
 
 ## License
 
-THis project is under the MIT License 
+This project is under the MIT License 
 © 2026 Nkono Jeremie
 
 ---
 ## Author
 
-**Nkono Jeremie **
-GitHub: https://github.com/yourusername
-Instagram: https://instagram.com/real_jeremienkono
-Email: jeremienkono1@gmail.com
+#### Nkono Jeremie 
+- GitHub: https://github.com/Apsco-app/e-voting
+- Instagram: https://instagram.com/real_jeremienkono
+- Email: jeremienkono1@gmail.com
