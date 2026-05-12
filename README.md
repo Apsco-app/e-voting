@@ -79,7 +79,7 @@ For major changes, please open an issue first to discuss what you would like to 
 
 ## License
 
-THis project is under the MIT License 
+This project is under the MIT License 
 © 2026 Nkono Jeremie
 
 ---
