@@ -85,7 +85,7 @@ THis project is under the MIT License
 ---
 ## Author
 
-**Nkono Jeremie **
-GitHub: https://github.com/yourusername
-Instagram: https://instagram.com/real_jeremienkono
-Email: jeremienkono1@gmail.com
+#### Nkono Jeremie 
+- GitHub: https://github.com/yourusername
+- Instagram: https://instagram.com/real_jeremienkono
+- Email: jeremienkono1@gmail.com
