@@ -86,6 +86,6 @@ THis project is under the MIT License
 ## Author
 
 #### Nkono Jeremie 
-- GitHub: https://github.com/yourusername
+- GitHub: https://github.com/Apsco-app/e-voting
 - Instagram: https://instagram.com/real_jeremienkono
 - Email: jeremienkono1@gmail.com
