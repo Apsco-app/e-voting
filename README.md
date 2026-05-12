@@ -35,21 +35,32 @@ Built with scalability, security and modern UX design in mind.
 ```bash
    npm install
 ```
-### Configure environment variables in the backend folder
+### Configure environment variables in the backend folder(create .env file in the backend folder)
 ``` env
     JWT_SECRET=
     ADMIN_USER=
     ADMIN_PASS=
 ```
 ### Run the backend
+```bash
+    cd backend
+```
+```bash
+    npm install
+```
 ``` bash
     npm run seed 
 ```
-
 ``` bash
     npm start
 ```
-### Run the development server
+### Run the development server in another terminal
+```bash
+    cd frontend
+```
+```bash
+    npm install
+```
 ``` bash 
     npm run dev
 ```
