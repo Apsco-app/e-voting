@@ -43,6 +43,10 @@ Built with scalability, security and modern UX design in mind.
 ```
 ### Run the backend
 ``` bash
+    npm run seed 
+```
+
+``` bash
     npm start
 ```
 ### Run the development server
