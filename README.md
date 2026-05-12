@@ -1,54 +1,91 @@
-# School E-Voting (Offline-First)
+#  UMSSN E-VOTING SYSTEM
 
-A local LAN-ready school e-voting system with separate admin and voting interfaces. The backend uses Node.js, Express, and SQLite; the frontend uses React with Vite.
+> A free, fast and secure method of voting for Uganda Martyrs SS Namugongo
+---
+## Overview
 
-## Backend
+UMSSN E-voting system is a system designed to make elections faster and more secure and eradicate cases of ballot stuffing and rigging of elections.
 
-1. Open a terminal in `c:\Users\User\Desktop\e-voting\backend`
-2. Install dependencies:
-   ```powershell
+Built with scalability, security and modern UX design in mind.
+---
+## Features
+
+- User authentication
+  - Use of a voter ID (VJA-V3V1E9)
+  - Username and password to access the admin section
+- Candidate registration
+- Secure voting
+- One vote per user
+- Admin management panel
+- Live results display
+- Modern UI
+ ---
+## Tech stack
+` frontend/` - React, pages, styles
+` backend/` - Express server, routes, SQLite database
+ 
+---
+## Installation
+ 
+### Clone the repository
+```bash
+   git clone https://github.com/jeremie-creates/evoting-system.git
+``` 
+### Install dependencies
+```bash
    npm install
-   ```
-3. Seed example data:
-   ```powershell
-   npm run seed
-   ```
-4. Start server:
-   ```powershell
-   npm start
-   ```
+```
+### Configure environment variables in the backend folder
+``` env
+    JWT_SECRET=
+    ADMIN_USER=
+    ADMIN_PASS=
+```
+### Run the backend
+``` bash
+    npm start
+```
+### Run the development server
+``` bash 
+    npm run dev
+```
+---
+## Security
+ Security is a key feature of the UMSSN e-voting system
+ 
+ Implimented protections include:
+ - [x] JWT authentication
+ - [x] Password hashing
+ - [x] Rate limiting
+ - [x] SQL injection prevention
+ - [x] Environment variable protection
 
-The backend will listen on `http://0.0.0.0:3000`. From other devices on the LAN use the host machine IP, e.g. `http://192.168.x.x:3000`.
+---
+## Usage
+1.	Sign in to the system.
+2.	View the list of candidates.
+3.	Select your preferred candidate.
+4.	Confirm your vote.
+5.	Wait for the results by the admin.
+---
 
-## Frontend
+## Contributing
 
-1. Open a new terminal in `c:\Users\User\Desktop\e-voting\frontend`
-2. Install dependencies:
-   ```powershell
-   npm install
-   ```
-3. Start the UI:
-   ```powershell
-   npm run dev
-   ```
+Pull requests are welcome.
 
-The frontend will run on `http://0.0.0.0:5173`. Access it from another LAN device via the host IP and port `5173`.
+For major changes, please open an issue first to discuss what you would like to change.
 
-## Admin login
+---
 
-- Username: `admin`
-- Password: `password123`
+## License
 
-> The backend defaults to `ADMIN_USER=admin`, `ADMIN_PASS=password123`, and a local `JWT_SECRET` when those environment variables are not set.
+THis project is under the MIT License 
+© 2026 Nkono Jeremie
 
-## Notes
+---
+## Author
 
-- Students are imported with voter IDs like `S4-A8F3K`.
-- Votes are stored in a transaction and student voting is blocked at the database level.
-- The backend is configured for SQLite WAL mode and indexes key fields for concurrency.
-
-## File structure
-
-- `/backend` — Express server, controllers, routes, SQLite database.
-- `/frontend` — React app, pages, styles, API services.
-In computer lab get ip address:5173
+**Nkono Jeremie **
+GitHub: https://github.com/yourusername
+Instagram: https://instagram.com/real_jeremienkono
+Email: jeremienkono1@gmail.com

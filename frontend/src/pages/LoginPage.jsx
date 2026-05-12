@@ -39,7 +39,7 @@ function LoginPage() {
           <img src="/logo.jpg" alt="School logo" className="login-logo" />
           <div>
             <h2>UMSSN E-Voting</h2>
-            <p>Fast, secure voting for students and teachers. Use your voter ID and full name to begin.</p>
+            <p>Fast, secure voting for students and teachers. Use your voter ID to begin.</p>
           </div>
         </div>
       </section>
